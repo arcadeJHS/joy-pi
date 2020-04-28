@@ -19,4 +19,7 @@ Hardware Requirements
 
 Architecture
 -
-<img alt="architecture" src="https://github.com/arcadeJHS/joy-pi/blob/master/schema/architecture.png?raw=true" style="width: 60%;">
+![architecture][1]
+
+
+[1]: https://github.com/arcadeJHS/joy-pi/blob/master/schema/architecture.png?raw=true
