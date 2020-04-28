@@ -1,0 +1,19 @@
+{
+  "name": "joy-pi",
+  "version": "1.0.0",
+  "author": "matteo.piazza@gmail.com",
+  "description": "A DIY javascript joypad",
+  "main": "hardware.js",
+  "scripts": {
+    "start:wsserver": "node WsServer.js",
+    "connect:hardware": "sudo node HardwareController.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript", "nodejs", "websocket", "johnny-five", "raspberry"],
+  "license": "WTFPL",
+  "dependencies": {
+    "johnny-five": "^1.4.0",
+    "raspi-io": "^11.0.0",
+    "websocket": "^1.0.31"
+  }
+}

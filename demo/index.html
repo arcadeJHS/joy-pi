@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+    	<meta charset="utf-8">	
+        <title>joy-pi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <header>Battle Board</header>
+
+            <div class="battle-board">
+                <canvas id="canvas"></canvas>
+                <ul>
+                    <li>
+                        <span>x:</span>
+                        <span id="x"></span>
+                    </li>
+                    <li>
+                        <span>y:</span>
+                        <span id="y"></span>
+                    </li>
+                    <li>
+                        <span>bullet:</span>
+                        <span id="bullet"></span>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+
+        <script type="module" src="rom.battleBoard.js"></script>
+    </body>
+</html>
