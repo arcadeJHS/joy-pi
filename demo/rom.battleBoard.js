@@ -1,5 +1,5 @@
 import KeyboardController from '/KeyboardController.js';
-import JoypadController from '/JoypadClientController.js';
+import WsClientConnector from '/WsClientConnector.js';
 
 (() => {
     // set
@@ -72,7 +72,7 @@ import JoypadController from '/JoypadClientController.js';
     new KeyboardController({ inputHandler: update });
 
     // Joypad controller
-    new JoypadController({ inputHandler: update, wsAddress: "ws://192.168.43.186:8000" });
+    new WsClientConnector({ inputHandler: update, wsAddress: "ws://192.168.43.186:8000" });
 
     // Start rendering
     requestAnimationFrame(draw);

@@ -1,4 +1,4 @@
-export default class JoypadController {
+export default class WsClientConnector {
 
   constructor({ inputHandler, wsAddress }) {
     this.inputHandler = inputHandler;
