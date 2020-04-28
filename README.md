@@ -16,3 +16,10 @@ Hardware Requirements
 - switches (5)
 - 10k ohm resistors (5)
 - a bunch of jumper wires
+
+Architecture
+=
+![architecture][1]
+
+
+[1]: https://github.com/arcadeJHS/joystickIno/blob/master/schema/architecture.png?raw=true

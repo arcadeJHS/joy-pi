@@ -21,8 +21,10 @@ const WsServer = {
 
         connection
           .on('message', (message) => {
+            // receive a command from hardware peripherals (the joypad, for instance)
             console.log(message.utf8Data);
             for (var con in active_connections) {
+              // propagate the command to the listening game
               active_connections[con].send(message.utf8Data);
             }
           })

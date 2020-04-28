@@ -1,5 +1,5 @@
 import KeyboardController from '/KeyboardController.js';
-import JoypadController from '/JoypadController.js';
+import JoypadController from '/JoypadClientController.js';
 
 (() => {
     // set
