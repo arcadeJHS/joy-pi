@@ -13,7 +13,7 @@ board.on('ready', () => {
   // Connect the joypad to the websocket server
   let client = new WebSocketClient();
   
-  client.on('connect', function (connection) {
+  client.on('connect', (connection) => {
     console.log('Board connected to wsServer');
     // init joypad
     const joypad_1 = new Joypad({ wsConnection: connection, pins: config.pins, player: 1 });
