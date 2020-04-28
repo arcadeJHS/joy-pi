@@ -22,4 +22,4 @@ Architecture
 ![architecture][1]
 
 
-[1]: https://github.com/arcadeJHS/joystickIno/blob/master/schema/architecture.png?raw=true
+[1]: https://github.com/arcadeJHS/joy-pi/blob/master/schema/architecture.png?raw=true
