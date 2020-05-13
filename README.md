@@ -2,6 +2,8 @@ joy-pi
 =
 A **javascript joypad**, made with Raspberry PI, node.js and websockets.
 
+![how does it look][1]
+
 Usage
 -
 1. ```npm run start:wsserver``` (equivalent to: ```node WsServer.js```)
@@ -19,7 +21,13 @@ Hardware Requirements
 
 Architecture
 -
-![architecture][1]
+![architecture][2]
+
+Diagram
+-
+![architecture][3]
 
 
-[1]: https://github.com/arcadeJHS/joy-pi/blob/master/schema/architecture.png?raw=true
+[1]: https://github.com/arcadeJHS/joy-pi/blob/master/schema/img.jpg?raw=true
+[2]: https://github.com/arcadeJHS/joy-pi/blob/master/schema/architecture.png?raw=true
+[3]: https://github.com/arcadeJHS/joy-pi/blob/master/schema/joy-pi.png?raw=true
