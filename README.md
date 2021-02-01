@@ -2,6 +2,8 @@ joy-pi
 =
 A **javascript joypad**, made with Raspberry PI, node.js and websockets.
 
+> Check the Arduino version: [joystickIno](https://github.com/arcadeJHS/joystickIno)
+
 ![how does it look][1]
 
 Usage
